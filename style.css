@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141313;
+  color: #fff;
+  line-height: 150%;
+  font-size: 0.875rem;
+  font-family: "Inter";
+}
+
+.card {
+  width: 24rem;
+  height: 38.1875rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 2.5rem;
+  background-color: #2b2420;
+  border-radius: 12px;
+}
+
+img {
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 999px;
+}
+
+img,
+.location,
+.description {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.location {
+  font-family: "Inter Bold";
+  color: #fba051;
+}
+
+button {
+  width: 19rem;
+  height: 2.8125rem;
+  background-color: #fba051;
+  font-family: "Inter Bold";
+  border-radius: 0.5rem;
+  border: 0;
+  color: #141313;
+}
+a {
+  margin-bottom: 1rem;
+}
+
+.last-button {
+  margin-bottom: 0;
+}
+
+button:hover {
+  background: white;
+  cursor: pointer;
+}
